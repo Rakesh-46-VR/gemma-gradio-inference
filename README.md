@@ -35,7 +35,8 @@ KAGGLE_KEY=your_kaggle_key
 ## How It Works
 
 1. **Model Selection & Loading**: Select a model from the dropdown and click "Load Model."
-2. **Text Generation**: Enter a prompt, adjust parameters, and click "Generate" to get a response.
+3. **Text Generation**: Enter a prompt, adjust parameters, and click "Generate" to get a response.
+2. **Use the slider to adjust max_length of output tokens.**
 
 ## Running the Application
 
