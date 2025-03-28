@@ -57,9 +57,6 @@ def generate_text(prompt, max_length, temperature, top_p):
     if not prompt:
         return "Please enter a prompt."
     
-    # Optional: print out the signature of the generate function for debugging.
-    params = inspect.signature(model.generate)
-    print("Generate function signature:", params)
     
     output = model.generate(
         prompt,
